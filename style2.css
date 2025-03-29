@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #997159;
+    background-color: #a1a173;
 }
+
 .body2{
-    background: #F5F5DC;
-    display: flex;
-    flex-flow: no wrap;
+    display:grid;
+    place-items: center;
 }
+
 
 .header{
     text-align: center;
@@ -23,18 +24,16 @@ body{
     padding-bottom: 1px;
 }
 
-.map{
-    background: radial-gradient(circle,#fcd200,#fe0b0b);
-    width: 85%;
-    
-}
+
 
 .card{
     width: 90%;
     max-width: 470px;
-    background: radial-gradient(circle, #d5d5d6, #4e49dd);
+    background: radial-gradient(circle, #171bfc, #ff13f7);
+    background: #5f5f09;
     color: #fff;
     margin: auto 0;
+    margin-top: 200px;
     border-radius: 5px;
     padding: 40px 50px;
     text-align: center;
